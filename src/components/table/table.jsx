@@ -6,7 +6,6 @@ const Table = ({title}) => {
                 <span className='text-lg font-semibold text-[#16222A]'>{title}</span>
             </div>
             <div className='flex flex-col space-y-6 p-6'>
-
                 <div className='flex justify-between'>
                     <span className='text-lg font-semibold text-[#16222A]'>Blue</span>
                     <div className='flex justify-center items-center bg-[#2DB649] p-1 rounded-md'>
