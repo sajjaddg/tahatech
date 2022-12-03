@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tahatech/static/css/main.8f62de13.css",
+    "main.js": "/tahatech/static/js/main.e5d397dd.js",
+    "index.html": "/tahatech/index.html",
+    "main.8f62de13.css.map": "/tahatech/static/css/main.8f62de13.css.map",
+    "main.e5d397dd.js.map": "/tahatech/static/js/main.e5d397dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f62de13.css",
+    "static/js/main.e5d397dd.js"
+  ]
+}
