@@ -1,4 +1,5 @@
 import './App.css';
+import InputBox from './components/input-box/input-box';
 import Table from './components/table/table';
 
 function App() {
@@ -10,12 +11,7 @@ function App() {
 
           </div>
           <Table title='Guess the Word' />
-          <div className='flex items-center space-x-3 justify-between'>
-            <input className='outline-none rounded-md p-2 text-lg' placeholder='Answer ...' />
-            <button className='bg-[#F16751] p-2 rounded-md flex-grow'>
-              <span className='text-white font-semibold text-lg'>Submit</span>
-            </button>
-          </div>
+          <InputBox />
         </div>
       </div>
     </>
