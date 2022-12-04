@@ -3,6 +3,8 @@
 
 function getSameCount(str1, str2) {
     let count = 0;
+    str1 = str1.toLowerCase()
+    str2 = str2.toLowerCase()
     const obj = str2.split("");
     for (let item of str1) {
         let idx = obj.findIndex(s => s === item);

@@ -6,7 +6,7 @@ const InputBox = ({ placeholder = 'Answer ...', buttonText = 'Submit' }) => {
     const [word, setWord] = useState('')
     const { setItems, key , setWin } = useContext(GameContext)
     const submitButton = () => {
-        if (key === word) {
+        if (key.toLowerCase() === word.toLowerCase()) {
             let item = {
                 word,
                 same: word.length,
